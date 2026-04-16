@@ -59,7 +59,8 @@
   },
   "carousel": {
     "title": "Featured Properties",
-    "loading": "Loading featured properties..."
+    "loading": "Loading featured properties...",
+    "noData": "No featured properties available at this time."
   },
   "about": {
     "title": "About",

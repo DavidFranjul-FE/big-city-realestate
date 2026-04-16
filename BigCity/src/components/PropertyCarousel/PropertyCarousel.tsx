@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useFeaturedProperties } from "../../hooks/useProperties";
-import { ErrorState, LoadingState } from "../shared/PageState";
+import { LoadingState } from "../shared/PageState";
 import { PropertyCard } from "../shared/PropertyCard";
 import { useCarousel } from "./hooks/useCarousel";
 
@@ -23,8 +23,17 @@ export default function PropertyCarousel() {
     return <LoadingState message={t("carousel.loading")} />;
   }
 
-  if (error) {
-    return <ErrorState message={error} />;
+  if (error || !data.length) {
+    return (
+      <section className="w-full bg-white py-16">
+        <div className="mx-auto max-w-7xl px-6">
+          <h2 className="mb-6 text-3xl font-bold text-gray-900">
+            {t("carousel.title")}
+          </h2>
+          <p className="text-gray-500">{t("carousel.noData")}</p>
+        </div>
+      </section>
+    );
   }
 
   return (

@@ -59,7 +59,8 @@
   },
   "carousel": {
     "title": "Propiedades Destacadas",
-    "loading": "Cargando propiedades destacadas..."
+    "loading": "Cargando propiedades destacadas...",
+    "noData": "No hay propiedades destacadas disponibles en este momento."
   },
   "about": {
     "title": "Nosotros",
