@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Home",
+    "listings": "Listings",
+    "about": "About",
+    "contact": "Contact",
+    "toggleMenu": "Toggle menu"
+  },
+  "footer": {
+    "tagline": "Find your next home with BigCity",
+    "taglineDesc": "Browse featured listings, save favorites, and book a viewing in minutes.",
+    "browseListings": "Browse Listings",
+    "contactUs": "Contact Us",
+    "description": "A modern real-estate marketplace for finding the right home — faster, simpler, and with beautiful listings.",
+    "explore": "Explore",
+    "support": "Support",
+    "newsletter": "Stay in the loop",
+    "newsletterDesc": "Get new listings and price drops sent to your inbox.",
+    "emailPlaceholder": "Email address",
+    "subscribe": "Subscribe",
+    "emailLabel": "Email:",
+    "phoneLabel": "Phone:",
+    "locationLabel": "Location:",
+    "copyright": "© {{year}} BigCity. All rights reserved.",
+    "supportLinks": {
+      "contact": "Contact",
+      "browseListings": "Browse Listings",
+      "aboutBigCity": "About BigCity"
+    },
+    "exploreLinks": {
+      "listings": "Listings",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "heading1": "Building Dreams,",
+    "heading2": "Delivering Homes.",
+    "description": "Discover premium properties designed for comfort, luxury, and a lifestyle you deserve.",
+    "viewProjects": "View Projects"
+  },
+  "listings": {
+    "title": "Listings",
+    "description": "Browse all available properties.",
+    "loading": "Loading listings..."
+  },
+  "listing": {
+    "loading": "Loading property...",
+    "notFound": "Property not found.",
+    "backToListings": "Back to listings",
+    "noImage": "No image",
+    "overview": "Overview",
+    "quickFacts": "Quick Facts",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "size": "Size",
+    "price": "Price",
+    "sqft": "sqft"
+  },
+  "carousel": {
+    "title": "Featured Properties",
+    "loading": "Loading featured properties..."
+  },
+  "about": {
+    "title": "About",
+    "description": "We help people find places they love — from modern family homes to city apartments and investment properties — with a smooth, transparent experience from search to closing.",
+    "mission": "Our mission",
+    "missionText": "BigCity exists to make real estate feel simple. We combine curated listings, human support, and straightforward guidance so you can make confident decisions — whether you're buying, renting, or investing.",
+    "imageCaption1": "Trusted guidance, modern listings, and a better way to move.",
+    "imageCaption2": "Built for buyers, renters, and investors.",
+    "valuesTitle": "What we value",
+    "valuesDesc": "Real estate can be noisy. We focus on what matters: clarity, speed, quality, and trust.",
+    "teamTitle": "The people behind BigCity",
+    "teamDesc": "A small, focused team obsessed with making the home search feel premium — and painless.",
+    "contactUs": "Contact us",
+    "ctaTitle": "Ready to find your next place?",
+    "ctaDesc": "Browse listings or reach out and we'll help you narrow it down.",
+    "browseListings": "Browse Listings",
+    "talkToUs": "Talk to us",
+    "stats": [
+      { "label": "Properties listed" },
+      { "label": "Cities covered" },
+      { "label": "Client satisfaction" }
+    ],
+    "values": [
+      {
+        "title": "Transparency",
+        "description": "Clear pricing, clear information, and no surprises — we keep it simple and honest."
+      },
+      {
+        "title": "Quality listings",
+        "description": "Curated properties with great photos and details so you can make faster decisions."
+      },
+      {
+        "title": "Support that moves",
+        "description": "Quick answers and helpful guidance from discovery all the way to closing day."
+      }
+    ],
+    "teamRoles": [
+      { "role": "Broker & Partnerships" },
+      { "role": "Client Experience" },
+      { "role": "Listings & Operations" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Tell us what you're looking for and we'll get back to you as soon as possible.",
+    "sendMessage": "Send a message",
+    "replyTime": "We usually reply within 1 business day.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "helpQuestion": "How can we help?",
+    "helpPlaceholder": "I'm looking for a 2-bedroom apartment in Santo Domingo...",
+    "sendButton": "Send message",
+    "legalText": "By sending this message, you agree to be contacted by BigCity.",
+    "reachUs": "Reach us directly",
+    "mapPlaceholder": "Map placeholder",
+    "mapHelperText": "Swap this box for Google Maps / Mapbox whenever you're ready.",
+    "quickQuestions": "Quick questions",
+    "contactInfo": [
+      { "title": "Email", "hint": "Best for non-urgent questions" },
+      { "title": "Phone", "hint": "Mon-Fri, 9:00 AM - 6:00 PM" }
+    ],
+    "faqs": [
+      {
+        "question": "Do you help with rentals and buying?",
+        "answer": "Yes — rentals, purchases, and investment properties."
+      },
+      {
+        "question": "How soon can I view a property?",
+        "answer": "Often same week, depending on availability."
+      },
+      {
+        "question": "Do you charge a fee?",
+        "answer": "It depends on the service and location — we'll clarify upfront."
+      }
+    ]
+  }
+}

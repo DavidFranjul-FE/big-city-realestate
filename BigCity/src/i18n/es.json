@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "listings": "Propiedades",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "toggleMenu": "Abrir menú"
+  },
+  "footer": {
+    "tagline": "Encuentra tu próximo hogar con BigCity",
+    "taglineDesc": "Explora propiedades destacadas, guarda tus favoritas y agenda una visita en minutos.",
+    "browseListings": "Ver Propiedades",
+    "contactUs": "Contáctanos",
+    "description": "Un mercado inmobiliario moderno para encontrar el hogar ideal — más rápido, más sencillo y con hermosas propiedades.",
+    "explore": "Explorar",
+    "support": "Soporte",
+    "newsletter": "Mantente al día",
+    "newsletterDesc": "Recibe nuevas propiedades y bajas de precio en tu correo.",
+    "emailPlaceholder": "Correo electrónico",
+    "subscribe": "Suscribirse",
+    "emailLabel": "Correo:",
+    "phoneLabel": "Teléfono:",
+    "locationLabel": "Ubicación:",
+    "copyright": "© {{year}} BigCity. Todos los derechos reservados.",
+    "supportLinks": {
+      "contact": "Contacto",
+      "browseListings": "Ver Propiedades",
+      "aboutBigCity": "Sobre BigCity"
+    },
+    "exploreLinks": {
+      "listings": "Propiedades",
+      "about": "Nosotros",
+      "contact": "Contacto"
+    }
+  },
+  "home": {
+    "heading1": "Construyendo Sueños,",
+    "heading2": "Entregando Hogares.",
+    "description": "Descubre propiedades premium diseñadas para el confort, el lujo y el estilo de vida que mereces.",
+    "viewProjects": "Ver Proyectos"
+  },
+  "listings": {
+    "title": "Propiedades",
+    "description": "Explora todas las propiedades disponibles.",
+    "loading": "Cargando propiedades..."
+  },
+  "listing": {
+    "loading": "Cargando propiedad...",
+    "notFound": "Propiedad no encontrada.",
+    "backToListings": "Volver a propiedades",
+    "noImage": "Sin imagen",
+    "overview": "Descripción",
+    "quickFacts": "Datos Clave",
+    "bedrooms": "Habitaciones",
+    "bathrooms": "Baños",
+    "size": "Tamaño",
+    "price": "Precio",
+    "sqft": "m²"
+  },
+  "carousel": {
+    "title": "Propiedades Destacadas",
+    "loading": "Cargando propiedades destacadas..."
+  },
+  "about": {
+    "title": "Nosotros",
+    "description": "Ayudamos a las personas a encontrar los lugares que aman — desde hogares familiares modernos hasta apartamentos en la ciudad y propiedades de inversión — con una experiencia fluida y transparente de inicio a cierre.",
+    "mission": "Nuestra misión",
+    "missionText": "BigCity existe para hacer que el sector inmobiliario se sienta simple. Combinamos listados seleccionados, apoyo humano y orientación directa para que puedas tomar decisiones seguras — ya sea comprando, alquilando o invirtiendo.",
+    "imageCaption1": "Orientación confiable, propiedades modernas y una mejor forma de mudarte.",
+    "imageCaption2": "Hecho para compradores, arrendatarios e inversores.",
+    "valuesTitle": "Lo que valoramos",
+    "valuesDesc": "El sector inmobiliario puede ser ruidoso. Nos enfocamos en lo que importa: claridad, velocidad, calidad y confianza.",
+    "teamTitle": "Las personas detrás de BigCity",
+    "teamDesc": "Un equipo pequeño y enfocado, obsesionado con hacer que la búsqueda de hogar sea premium — y sin complicaciones.",
+    "contactUs": "Contáctanos",
+    "ctaTitle": "¿Listo para encontrar tu próximo lugar?",
+    "ctaDesc": "Explora propiedades o contáctanos y te ayudaremos a encontrar lo que buscas.",
+    "browseListings": "Ver Propiedades",
+    "talkToUs": "Háblanos",
+    "stats": [
+      { "label": "Propiedades listadas" },
+      { "label": "Ciudades cubiertas" },
+      { "label": "Satisfacción del cliente" }
+    ],
+    "values": [
+      {
+        "title": "Transparencia",
+        "description": "Precios claros, información clara y sin sorpresas — lo mantenemos simple y honesto."
+      },
+      {
+        "title": "Propiedades de calidad",
+        "description": "Propiedades seleccionadas con excelentes fotos y detalles para que puedas tomar decisiones más rápidas."
+      },
+      {
+        "title": "Soporte que avanza",
+        "description": "Respuestas rápidas y orientación útil desde el descubrimiento hasta el día del cierre."
+      }
+    ],
+    "teamRoles": [
+      { "role": "Corredor y Alianzas" },
+      { "role": "Experiencia del Cliente" },
+      { "role": "Propiedades y Operaciones" }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Cuéntanos qué estás buscando y te responderemos lo antes posible.",
+    "sendMessage": "Enviar un mensaje",
+    "replyTime": "Normalmente respondemos en 1 día hábil.",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phone": "Teléfono (opcional)",
+    "helpQuestion": "¿En qué podemos ayudarte?",
+    "helpPlaceholder": "Estoy buscando un apartamento de 2 habitaciones en Santo Domingo...",
+    "sendButton": "Enviar mensaje",
+    "legalText": "Al enviar este mensaje, aceptas ser contactado por BigCity.",
+    "reachUs": "Contáctanos directamente",
+    "mapPlaceholder": "Mapa",
+    "mapHelperText": "Reemplaza este cuadro con Google Maps / Mapbox cuando estés listo.",
+    "quickQuestions": "Preguntas frecuentes",
+    "contactInfo": [
+      { "title": "Correo", "hint": "Ideal para preguntas no urgentes" },
+      { "title": "Teléfono", "hint": "Lun-Vie, 9:00 AM - 6:00 PM" }
+    ],
+    "faqs": [
+      {
+        "question": "¿Ayudan con alquileres y compras?",
+        "answer": "Sí — alquileres, compras y propiedades de inversión."
+      },
+      {
+        "question": "¿Cuándo puedo visitar una propiedad?",
+        "answer": "A menudo la misma semana, según disponibilidad."
+      },
+      {
+        "question": "¿Cobran una comisión?",
+        "answer": "Depende del servicio y la ubicación — lo aclararemos desde el principio."
+      }
+    ]
+  }
+}
