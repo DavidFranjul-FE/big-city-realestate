@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { formatCurrency, formatNumber } from "../../utils/formatters";
+import { formatNumber } from "../../utils/formatters";
+import { useCurrencyFormatter } from "../../hooks/useCurrencyFormatter";
 import { getPropertyGalleryImages } from "../../utils/property";
 import { EmptyState, ErrorState, LoadingState } from "../shared/PageState";
 import { PropertySpecs } from "../shared/PropertySpecs";
@@ -10,6 +11,7 @@ import { usePropertyBySlug } from "../../hooks/useProperties";
 export const ListingSingular = () => {
   const { slug } = useParams();
   const { t } = useTranslation();
+  const formatPrice = useCurrencyFormatter();
   const { data, loading, error } = usePropertyBySlug(slug);
 
   if (loading) {
@@ -43,7 +45,7 @@ export const ListingSingular = () => {
           <p className="text-gray-500">
             {data.location} |{" "}
             <span className="font-semibold text-gray-900">
-              {formatCurrency(data.price)}
+              {formatPrice(data.price)}
             </span>
           </p>
 
@@ -143,9 +145,7 @@ export const ListingSingular = () => {
               </div>
               <div className="flex justify-between">
                 <span>{t("listing.price")}</span>
-                <span className="font-semibold">
-                  {formatCurrency(data.price)}
-                </span>
+                <span className="font-semibold">{formatPrice(data.price)}</span>
               </div>
             </div>
           </SurfaceCard>

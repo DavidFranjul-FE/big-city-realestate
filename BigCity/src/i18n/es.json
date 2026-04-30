@@ -64,9 +64,9 @@
   },
   "about": {
     "title": "Nosotros",
-    "description": "Ayudamos a las personas a encontrar los lugares que aman — desde hogares familiares modernos hasta apartamentos en la ciudad y propiedades de inversión — con una experiencia fluida y transparente de inicio a cierre.",
+    "description": "Trabajamos juntos en el acompañamiento de tu búsqueda hasta encontrar tu lugar ideal. Te guiamos desde la compra de tu primer hogar, segunda vivienda o alquiler, hasta la adquisición de fincas, oficinas, solares, naves y oportunidades de inversión en zonas turísticas del país. Nos mueve la pasión por acompañarte en estas etapas importantes, asegurando decisiones seguras y negocios inteligentes.",
     "mission": "Nuestra misión",
-    "missionText": "BigCity existe para hacer que el sector inmobiliario se sienta simple. Combinamos listados seleccionados, apoyo humano y orientación directa para que puedas tomar decisiones seguras — ya sea comprando, alquilando o invirtiendo.",
+    "missionText": "Donde está el sol, ahí está Big City. Trabajamos para que el sector inmobiliario sea percibido como un espacio en el que vale la pena confiar, brindando apoyo humano y la mejor orientación. Nuestro objetivo es que cada cliente se sienta seguro y acompañado por personas que transmiten paz y armonía en cada paso, especialmente en decisiones de gran importancia.",
     "imageCaption1": "Orientación confiable, propiedades modernas y una mejor forma de mudarte.",
     "imageCaption2": "Hecho para compradores, arrendatarios e inversores.",
     "valuesTitle": "Lo que valoramos",
@@ -98,8 +98,8 @@
       }
     ],
     "teamRoles": [
-      { "role": "Corredor y Alianzas" },
-      { "role": "Experiencia del Cliente" },
+      { "role": "CEO y Directora de Ventas" },
+      { "role": "Director de Operaciones y Finanzas" },
       { "role": "Propiedades y Operaciones" }
     ]
   },

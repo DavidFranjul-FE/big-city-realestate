@@ -19,9 +19,9 @@ export function TeamCard({ name, role }: { name: string; role: string }) {
         </div>
       </div>
 
-      <p className="mt-4 text-sm leading-relaxed text-gray-600">
+      {/* <p className="mt-4 text-sm leading-relaxed text-gray-600">
         Focused on making the search experience feel fast, clear, and premium.
-      </p>
+      </p> */}
     </SurfaceCard>
   );
 }

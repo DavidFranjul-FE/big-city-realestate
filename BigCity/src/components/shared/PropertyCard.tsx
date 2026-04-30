@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import type { Property } from "../../types/property";
 import { buildPropertyImageUrl } from "../../utils/property";
-import { formatCurrency } from "../../utils/formatters";
+import { useCurrencyFormatter } from "../../hooks/useCurrencyFormatter";
 import { PropertySpecs } from "./PropertySpecs";
 
 type PropertyCardProps = {
@@ -19,6 +19,7 @@ export function PropertyCard({
   className = "",
   priceOverlay = false,
 }: PropertyCardProps) {
+  const formatPrice = useCurrencyFormatter();
   const imageUrl = buildPropertyImageUrl(property.mainImage, 900, 600);
 
   return (
@@ -42,7 +43,7 @@ export function PropertyCard({
 
         {priceOverlay ? (
           <div className="absolute bottom-3 left-3 rounded-full bg-black/60 px-3 py-1 text-sm font-semibold text-white">
-            {formatCurrency(property.price)}
+            {formatPrice(property.price)}
           </div>
         ) : null}
       </div>
@@ -53,7 +54,7 @@ export function PropertyCard({
 
         {!priceOverlay ? (
           <p className="mt-3 text-xl font-bold text-green-600">
-            {formatCurrency(property.price)}
+            {formatPrice(property.price)}
           </p>
         ) : null}
 

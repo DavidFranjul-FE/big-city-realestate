@@ -7,12 +7,6 @@ type AsyncState<T> = {
   refetch: () => Promise<void>;
 };
 
-/**
- * Generic async hook with:
- * - loading/error handling
- * - cancellation protection on unmount
- * - refetch support
- */
 export function useAsync<T>(
   fn: () => Promise<T>,
   deps: React.DependencyList = [],

@@ -64,9 +64,9 @@
   },
   "about": {
     "title": "About",
-    "description": "We help people find places they love — from modern family homes to city apartments and investment properties — with a smooth, transparent experience from search to closing.",
+    "description": "We work alongside you throughout your search until you find your ideal place. We guide you from purchasing your first home, second residence, or rental, to acquiring farms, offices, land, warehouses, and investment opportunities in the country’s tourist areas. We are driven by a passion to support you in these important stages, ensuring confident decisions and smart investments.",
     "mission": "Our mission",
-    "missionText": "BigCity exists to make real estate feel simple. We combine curated listings, human support, and straightforward guidance so you can make confident decisions — whether you're buying, renting, or investing.",
+    "missionText": "Where the sun is, there is Big City. We strive to make the real estate sector feel like a space worth trusting, providing human support and the best guidance. Our goal is for every client to feel safe and accompanied by people who bring a sense of peace and harmony at every step, especially when making decisions of great importance.",
     "imageCaption1": "Trusted guidance, modern listings, and a better way to move.",
     "imageCaption2": "Built for buyers, renters, and investors.",
     "valuesTitle": "What we value",
@@ -98,8 +98,8 @@
       }
     ],
     "teamRoles": [
-      { "role": "Broker & Partnerships" },
-      { "role": "Client Experience" },
+      { "role": "CEO & Sales Director" },
+      { "role": "Operations & Finance Director" },
       { "role": "Listings & Operations" }
     ]
   },
