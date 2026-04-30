@@ -12,7 +12,8 @@ const PROPERTY_FIELDS = `
   sqft,
   mainImage,
   gallery,
-  description
+  description,
+  isForRent
 `;
 
 export async function fetchProperties(options?: { featured?: boolean }) {

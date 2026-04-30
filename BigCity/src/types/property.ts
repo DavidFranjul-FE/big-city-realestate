@@ -23,4 +23,5 @@ export type Property = {
   mainImage?: SanityImageRef;
   gallery?: SanityImageRef[];
   description?: string;
+  isForRent?: boolean;
 };

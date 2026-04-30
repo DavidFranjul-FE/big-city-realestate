@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import type { Property } from "../../types/property";
 import { buildPropertyImageUrl } from "../../utils/property";
 import { useCurrencyFormatter } from "../../hooks/useCurrencyFormatter";
@@ -19,6 +20,7 @@ export function PropertyCard({
   className = "",
   priceOverlay = false,
 }: PropertyCardProps) {
+  const { t } = useTranslation();
   const formatPrice = useCurrencyFormatter();
   const imageUrl = buildPropertyImageUrl(property.mainImage, 900, 600);
 
@@ -40,6 +42,10 @@ export function PropertyCard({
             No image
           </div>
         )}
+
+        <div className={`absolute top-3 left-3 rounded-full px-3 py-1 text-xs font-semibold text-white ${property.isForRent ? "bg-blue-600" : "bg-green-600"}`}>
+          {property.isForRent ? t("listing.forRent") : t("listing.forSale")}
+        </div>
 
         {priceOverlay ? (
           <div className="absolute bottom-3 left-3 rounded-full bg-black/60 px-3 py-1 text-sm font-semibold text-white">

@@ -40,11 +40,16 @@ export const ListingSingular = () => {
     <div className="bg-white">
       <div className="mx-auto max-w-6xl px-6 pt-28 pb-10">
         <div className="mt-4 flex flex-col gap-2">
-          <h1 className="text-3xl font-bold text-gray-900">{data.title}</h1>
+          <div className="flex items-center gap-3">
+            <h1 className="text-3xl font-bold text-gray-900">{data.title}</h1>
+            <span className={`rounded-full px-3 py-1 text-sm font-semibold text-white ${data.isForRent ? "bg-blue-600" : "bg-green-600"}`}>
+              {data.isForRent ? t("listing.forRent") : t("listing.forSale")}
+            </span>
+          </div>
           <p className="text-gray-500">
             {data.location} |{" "}
             <span className="font-semibold text-gray-900">
-              {formatPrice(data.price)}
+              {formatPrice(Math.floor(data.price))}
             </span>
           </p>
 

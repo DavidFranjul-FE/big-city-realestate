@@ -55,7 +55,9 @@
     "bathrooms": "Bathrooms",
     "size": "Size",
     "price": "Price",
-    "sqft": "sqft"
+    "sqft": "sqft",
+    "forRent": "For Rent",
+    "forSale": "For Sale"
   },
   "carousel": {
     "title": "Featured Properties",

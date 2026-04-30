@@ -55,7 +55,9 @@
     "bathrooms": "Baños",
     "size": "Tamaño",
     "price": "Precio",
-    "sqft": "m²"
+    "sqft": "m²",
+    "forRent": "Alquiler",
+    "forSale": "Venta"
   },
   "carousel": {
     "title": "Propiedades Destacadas",
