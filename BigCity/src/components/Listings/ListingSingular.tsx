@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { formatNumber } from "../../utils/formatters";
+import { formatArea, formatNumber } from "../../utils/formatters";
 import { useCurrencyFormatter } from "../../hooks/useCurrencyFormatter";
 import { getPropertyGalleryImages } from "../../utils/property";
 import { EmptyState, ErrorState, LoadingState } from "../shared/PageState";
@@ -10,10 +10,9 @@ import { usePropertyBySlug } from "../../hooks/useProperties";
 
 export const ListingSingular = () => {
   const { slug } = useParams();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const formatPrice = useCurrencyFormatter();
   const { data, loading, error } = usePropertyBySlug(slug);
-
   if (loading) {
     return <LoadingState message={t("listing.loading")} />;
   }
@@ -140,7 +139,10 @@ export const ListingSingular = () => {
               <div className="flex justify-between">
                 <span>{t("listing.size")}</span>
                 <span className="font-semibold">
-                  {formatNumber(data.sqft)} {t("listing.sqft")}
+                  {formatArea(
+                    Number(formatNumber(data.sqft)),
+                    i18n.language,
+                  )}{" "}
                 </span>
               </div>
               <div className="flex justify-between">
